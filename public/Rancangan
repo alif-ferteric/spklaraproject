@@ -1,0 +1,25 @@
+Tabel Kriteria
+ id
+ nama Kriteria
+ status
+
+Tabel Alternatif
+ id
+ nama Alternatif
+ keterangan
+
+Tabel Nilai
+ id
+ user_id
+ alternatif_id
+ k1
+ k2
+ k3
+ ...
+ k23
+
+Tabel user
+ id
+ nip
+ nama
+ password
